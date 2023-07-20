@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .navbar {
+    @apply text-7xl ;
+  }
+  .input {
+    @apply border  border-[1px] w-auto h-[40px] rounded-lg px-1 ;
+  }
+  .input-full {
+    @apply border border-gray-500 border-[1px] ;
+  }
+  .input-empty {
+    @apply border border-blue-500 border-[1px] ;
+  }
+
+  .btn {
+    @apply border border-gray-500 w-auto px-1 h-[40px]  rounded-lg border-[1px] bg-gray-100;
+  }
+  .btn-success {
+    @apply  focus:border-green-700 rounded-lg  focus:border-[2px];
+  }
+  .table{
+    @apply w-[95%]  mx-auto text-center  rounded-lg ;
+  }
+  .table-container{
+    @apply  h-[calc(100vh-200px)] overflow-y-auto flex   rounded-lg ;
+  }
+}
