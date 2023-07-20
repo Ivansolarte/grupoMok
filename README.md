@@ -12,3 +12,8 @@ prueba desplegada: "https://64b8b8ca678b8137c50c3284--warm-empanada-52dbd5.netli
 *La distribución de las carpetas para ser mas entendible donde se encuentra cada component y cada elemento de la aplicación Y hacerle más fácil “” el entender la aplicación para un nuevo desarrollador
 
 *Las utilización de la metodología “Atomic Design”  Permite trabajar teniendo en cuenta cada componente y establecer la mejor forma de dividir los elementos 
+
+-----para correr el proyecto 
+1- descargar el repositorio 
+2- instalar las dependencias = npm i
+3- entrar al proyecto y correrlo  = npm start
