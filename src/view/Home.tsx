@@ -8,6 +8,7 @@ export const Home = () => {
 
   return (
     <>
+    {/* cambios  */}
       <Navbar color={()=>setColor(!color)}/>
       <Container color={color}/>
     </>
